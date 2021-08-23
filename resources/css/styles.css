@@ -1,0 +1,54 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-style: italic;
+    color: hsla(0, 0%, 0%, 0.5);
+}
+
+li {
+    padding: 0.3em 0em;
+}
+
+section#second li {
+    color: red;
+}
+
+section#third li {
+    color: red;
+}
+
+section#third li.list-class {
+    color: green;
+}
+
+section#fourth li {
+    color: red;
+}
+
+section#fourth li.list-class {
+    color: green;
+}
+
+section#fourth li.list-class#list-id {
+    color: blue;
+}
+
+thead th {
+    background-color: skyblue;
+    border: 2px solid;
+    padding: 0.4em;
+}
+
+tbody td {
+    background-color: hsla(18, 96% ,71%, 0.5);
+    border: 1px dotted;
+    padding: 0.4em;
+}
+
+tbody td.example {
+    background-color: hsla(18, 96%, 71%, 0.3);
+    font-family: monospace;
+}
